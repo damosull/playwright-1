@@ -1,30 +1,27 @@
-# Notes
+# notes Folder:
 
-- The notes folder contains very basic notes on topics like getting a framework up & running to Playwright reporters, etc.
+- This folder contains very basic notes on topics such as setting up a basic Framework to Playwright Reporters, etc.
 
-# Configs
+# configs Folder:
 
-- The configs folder contains the configurations for various types of tests.
+- This folder contains the configurations for various sets of tests.
 - These configs are fairly similar, the only major differences are the test directory file path & whether or not videos/screenshots are turned on.
 
-# Test Generated Files
+# Test Results / Test Reporting:
 
-- This folder contains PDF & PNG files generated as part of various tests.
-
-# Test Results / Test Reporting
-
-- See notes/07-reporters.md
+- See notes/07-reporters.md.
   Todo: add link in above
 
-# Artifacts on Fail (Videos & Screenshots)
+# Artifacts on Fail (Videos & Screenshots):
 
-- See notes/08-screenshots-visual-testing.md
+- See notes/08-screenshots-visual-testing.md.
   Todo: add link in above
 
-# test-generated-files Folder
+# Test Generated Files:
 
-- Only purpose for this is to store files that are generated when running some commands.
-- The commands that generate these files can be found in notes/15-tips.md
+- The only purpose for the `test-generated-files` folder is to store some PDF & PNG files generated after running some commands.
+- The commands that generate these files can be found in notes/15-tips.md.
+- This folder is not used for storing test failure screenshots/videos.
 
 # Todo List:
 
