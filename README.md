@@ -36,7 +36,7 @@
 
 # 'utils' Folder:
 
-- See [notes/11-custom-functions.md](notes/11-custom-functions.md) & [notes/16-tips.md](notes/16-tips.md)
+- See [notes/11-custom-functions.md](notes/11-custom-functions.md) & [notes/15-tips.md](notes/15-tips.md)
 
 # 'page-objects' Folder
 
@@ -48,5 +48,5 @@
 # Test Generated Files:
 
 - The only purpose for the [test-generated-files](test-generated-files) folder is to store some PDF & PNG files generated after running some commands.
-- The commands that generate these files can be found in [notes/16-tips.md](notes/16-tips.md).
+- The commands that generate these files can be found in [notes/15-tips.md](notes/15-tips.md).
 - This folder is not used for storing test failure screenshots or videos.
