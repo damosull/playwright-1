@@ -1,6 +1,6 @@
 # Getting Started:
 
-- The [notes](notes) folder contains some basic notes on topics such as setting up a basic Framework to Playwright Reporters, etc.
+- The [notes](notes) folder contains basic notes on some topics _(as setting up a basic framework, Playwright Reporters, etc.)_
 - The [configs](configs) folder contains the configurations for various sets of tests.
   - These configs are fairly similar, the only major differences are the test directory file path & whether or not videos/screenshots are turned on.
 - The [page-objects](page-objects) folder is explained in [notes/16-page-objects.md](notes/16-page-objects.md)
