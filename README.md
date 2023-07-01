@@ -2,22 +2,48 @@
 
 - This folder contains very basic notes on topics such as setting up a basic Framework to Playwright Reporters, etc.
 
-# configs Folder:
+# PlayWright Installation & writing your first test:
 
-- This folder contains the configurations for various sets of tests.
-- These configs are fairly similar, the only major differences are the test directory file path & whether or not videos/screenshots are turned on.
+- See notes/01-set-up-steps.md
+  Todo: add link in above
+
+# How to run this framework:
+
+1. Run `npm install` to install the project dependencies.
+2. Run one of the test commands (i.e. `npm run test:chrome`)
 
 # Test Results / Test Reporting:
 
 - See notes/07-reporters.md.
   Todo: add link in above
 
+# configs Folder:
+
+- This folder contains the configurations for various sets of tests.
+- These configs are fairly similar, the only major differences are the test directory file path & whether or not videos/screenshots are turned on.
+
 # Artifacts on Fail (Videos & Screenshots):
 
-- See notes/08-screenshots-visual-testing.md.
+- See notes/08-screenshots-on-failure.md.
   Todo: add link in above
 
-# Scripts:
+# Test Files/Folders:
+
+- api - sample API tests
+- e2e - sample E2E tests of the 'zero.webappsecurity.com' test application, including POM examples.
+- tips - sample Playwright tips
+- visual - sample Visual tests
+- example.spec.ts - basic tests of the 'zero.webappsecurity.com' test application.
+
+# Visual Testing:
+
+- See notes/09-screenshots-visual-testing.md.
+  Todo: add link in above
+
+# utils Folder:
+
+- See notes/10-custom-functions.md & notes/15-tips.md
+  Todo: add link in above
 
 # page-objects Folder
 
@@ -31,8 +57,3 @@
 - The only purpose for the `test-generated-files` folder is to store some PDF & PNG files generated after running some commands.
 - The commands that generate these files can be found in notes/15-tips.md.
 - This folder is not used for storing test failure screenshots/videos.
-
-# Todo List:
-
-1. Need to go through the sub folders within the tests folder in the README, just give a brief explanation on what's inside each, which configuration is linked to it, etc., & if there's anything specific about certain sub folders (i.e. having to run the visual tests once before they actually pass. For this example, instead of repeating, just add a link to the MD file in the notes section that explains it, rather than repeating yourself).
-2. Use the README file to explain installation steps how to run the framework & where to find the test results. We need to stick to 1 reporting format so we can confirm the framework is working correctly. Might make sense to stick to the basic one as the base. We can then add a notes MD file that explains the steps needed in order to use other reporters (see if we can maybe update the existing 07-reporters.md for this?)
