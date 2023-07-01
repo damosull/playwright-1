@@ -48,4 +48,4 @@
 
 # Visual Testing Tool - Percy.io
 
-- If you don't want to use the above visual testing, you can integrate Percy. Docs: https://docs.percy.io/docs/playwright
+- If you don't want to use the above visual testing, you can integrate Percy. Docs - https://docs.percy.io/docs/playwright
