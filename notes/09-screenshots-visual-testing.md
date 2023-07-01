@@ -29,12 +29,12 @@
 
 - Code snippet:
 
-```
-const pageElement = await page.$('h1');
-expect(await pageElement?.screenshot()).toMatchSnapshot('page-title.png');
-```
+  ```
+  const pageElement = await page.$('h1');
+  expect(await pageElement?.screenshot()).toMatchSnapshot('page-title.png');
+  ```
 
-- This testing behaves the exact same way as the Full Page screenshots above (i.e. on first run, etc.)
+- This testing behaves the exact same way as the Full Page screenshots above _(i.e. on first run, etc.)_
 
 # Visual Testing - Updating Base Screenshots
 
