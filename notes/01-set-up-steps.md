@@ -1,7 +1,7 @@
 # Installation Steps:
 
 1. `npm i prettier`
-   a. Create `.prettierrc` file in the root:
+2. Create `.prettierrc` file in the root directory:
 
 ```
 {
@@ -10,13 +10,13 @@
 }
 ```
 
-2. `npm i @playwright/test`
+3. `npm i @playwright/test`
 
-3. `npx playwright install` - to install the required browsers
+4. `npx playwright install` - to install the required browsers
 
 # First Test:
 
-1. Create a `tests` folder
+1. Create a `tests` folder in the root directory.
 2. Create `example.spec.ts` in this folder
 3. Add the following code:
 
