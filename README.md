@@ -5,6 +5,9 @@
   - These configs are fairly similar, the only major differences are the test directory file path & whether or not videos/screenshots are turned on.
 - The [page-objects](page-objects) folder is explained in [notes/16-page-objects.md](notes/16-page-objects.md)
 - The [utils](utils) folder is explained in [notes/11-custom-functions.md](notes/11-custom-functions.md) & [notes/15-tips.md](notes/15-tips.md).
+- The only purpose for the [test-generated-files](test-generated-files) folder is to store some PDF & PNG files generated after running some commands.
+  - The commands that generate these files can be found in [notes/15-tips.md](notes/15-tips.md).
+  - This folder is not used for storing test failure screenshots or videos.
 
 # PlayWright Installation & writing your first test:
 
@@ -35,9 +38,3 @@
 # Visual Testing:
 
 - See [notes/09-screenshots-visual-testing.md](notes/09-screenshots-visual-testing.md).
-
-# Test Generated Files:
-
-- The only purpose for the [test-generated-files](test-generated-files) folder is to store some PDF & PNG files generated after running some commands.
-- The commands that generate these files can be found in [notes/15-tips.md](notes/15-tips.md).
-- This folder is not used for storing test failure screenshots or videos.
