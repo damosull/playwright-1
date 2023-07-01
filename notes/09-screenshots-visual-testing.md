@@ -12,10 +12,9 @@
 
 # Visual Testing - Full Page Screenshot
 
-- Required:
+- Related files: [configs/visual.config.ts](configs/visual.config.ts) & [tests/visual](tests/visual) folder
 
-  - `configs/visual.config.ts` - only changes are turning video/screenshots off & updating the test directory.
-  - `tests/visual` spec folder.
+  - _Note: The only changes in the config are turning video & screenshots off & updating the test directory._
 
 - Code snippet: `expect(await page.screenshot()).toMatchSnapshot('homepage.png');`
 
