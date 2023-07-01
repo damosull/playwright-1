@@ -16,9 +16,12 @@
 
 - Code snippet: `expect(await page.screenshot()).toMatchSnapshot('homepage.png');`
 
-- 1st time you run this test, it will fail, as there is no base screenshot to compare to.
-- Running the test for the 1st time, will generate a base screenshot (i.e. `homepage-Chromium-win32.png`) under the `tests/visual` folder.
-- On the 2nd test run, the UI will be compared against this base screenshot.
+- 1st test run:
+  - The test will fail, as there are no base snapshots to compare to.
+  - Base screenshots will be generated _(i.e. `homepage-Chromium-win32.png`)_ under the [tests/visual](tests/visual) folder.
+- 2nd test run:
+
+  - The UI will be compared against the base screenshots mentioned above.
 
 - NB: The above code only generates a file for the browser you ran the 1st test in. Therefore you have to run the test once for each of your browsers first, before the comparison will work (in order to generate the base screenshots for each browser)
 
