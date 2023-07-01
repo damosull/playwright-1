@@ -1,16 +1,16 @@
 # Test Info Object:
 
-- This contains lots of info about your test _(output directories, configs, settings, etc.)_.
+- Contains lots of info about your test _(output directories, configs, settings, etc.)_.
 - This is useful if you have an internal monitoring/logging system, as we can take info from the `testInfo` object & pass it to the monitoring system to collect metrics, etc.
-- if you want a specific piece of info you can use something like `testInfo.title`, `testInfo.file`, etc.
+- If you want a specific piece of info you can use something like `testInfo.title`, `testInfo.file`, etc.
 - See [tests/tips/tips.spec.ts](tests/tips/tips.spec.ts) for an example.
 
 # Skip Browser Annotation
 
-- Useful if you have a feature that's not been implemented yet for a specific browser (i.e. it works in Webkit, but not in Firefox)
-- See tips.spec.ts for an example.
+- Useful if you have a feature that's not been implemented yet for a specific browser _(i.e. it works in Webkit, but not in Firefox)_
+- See [tests/tips/tips.spec.ts](tests/tips/tips.spec.ts) for an example.
 
-# Fixme Annotation
+# `Fixme` Annotation
 
 - Some tests are skipped because they're outdated, waiting for something, etc. (`test.skip(...)`)
 - Some tests are skipped because they're flaky, or there's a bug in the automation code (`test.fixme(...)`).
