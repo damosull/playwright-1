@@ -9,7 +9,11 @@
    ```
 
 2. Import these functions in your spec file:
-   `import { assertHeader } from '../utils/page-helpers.ts'`
+
+   ```
+   import { assertHeader } from '../utils/page-helpers.ts'
+   ```
+
 3. Use it:
    ```
    await assertTitle(page)
