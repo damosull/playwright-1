@@ -1,6 +1,6 @@
 # Some CLI Options:
 
-- `--headed` (run in headed mode)
-- `--browser=firefox` (run in specific browser)
-- `--browser=all` (run in all browsers)
-- `npx playwright test tests/example.spec.ts` (path to your test)
+- `--headed` _ - (run in headed mode)_
+- `--browser=firefox` _(run in specific browser)_
+- `--browser=all` _(run in all browsers)_
+- `npx playwright test tests/example.spec.ts` _(path to your test)_
