@@ -1,13 +1,14 @@
 # Taking a Screenshot during a test:
 
 - You can take screenshots of the entire screen or an element on the screen.
+
   - Full page: `await page.screenshot({ path: 'screenshot.png', fullPage: true })`
   - Specific element on the page:
 
-```
-const el = await page.$('h1')
-await el.screenshot({ path: 'screenshot.png' })
-```
+    ```
+    const el = await page.$('h1')
+    await el.screenshot({ path: 'screenshot.png' })
+    ```
 
 # Visual Testing - Full Page Screenshot
 
