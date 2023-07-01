@@ -11,7 +11,7 @@ await el.screenshot({ path: 'screenshot.png' })
 
 # Artifacts on Fail (videos & screenshots):
 
-- In `playwright.config.ts`, we've previously set video & screenshot to `off`.
+- In `configs/playwright.config.ts`, we've previously set video & screenshot to `off`.
 - All you need to do is set the following:
 
 ```
@@ -25,7 +25,7 @@ screenshot: 'only-on-failure',
 
 - Required:
 
-  - `visual.config.ts` - only changes are turning video/screenshots off & updating the test directory.
+  - `configs/visual.config.ts` - only changes are turning video/screenshots off & updating the test directory.
   - `tests/visual` spec folder.
 
 - Code snippet: `expect(await page.screenshot()).toMatchSnapshot('homepage.png');`
@@ -57,7 +57,7 @@ expect(await pageElement?.screenshot()).toMatchSnapshot('page-title.png');
 - How to create new base screenshots:
   - Option 1: Delete the existing .png files & run the test again.
   - Option 2: Pass the `--update-snapshots` flag to your run command
-    - `npx playwright test --config=visual.config.ts --project-Webkit --update-snapshots`
+    - `npx playwright test --config=configs/visual.config.ts --project-Webkit --update-snapshots`
 
 MY QUESTION:
 

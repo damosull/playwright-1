@@ -3,6 +3,7 @@
 - We'll likely need different configurations for different environments.
 - Customising the config options in this file allows us to control various aspects of the test execution (browser settings, timeouts, retries, etc.), allowing us to tailor the test execution environment to our specific requirements.
 - Create a `playwright.config.ts` file in the project root.
+- Note: As we have multiple configs, we moved these into a `configs` folder, but the default is to keep the config at the root if you only have 1.
 - Example:
 
 ```
@@ -52,4 +53,4 @@ export default config;
 - The `projects` option allows us to define multiple browser environments to run our tests against.
 
 How to specify a config:
-`npx playwright test --config=playwright.config.ts --project=Webkit`
+`npx playwright test --config=configs/playwright.config.ts --project=Webkit`
