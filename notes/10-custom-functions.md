@@ -1,6 +1,6 @@
 # Custom Functions:
 
-1. Add your helper/reusable functions to a file like `helpers.ts`:
+1. Add your helper/reusable functions to a file like `page-helpers.ts`:
 
 ```
 export async function loadHomepage(page) {
@@ -8,5 +8,5 @@ export async function loadHomepage(page) {
 }
 ```
 
-2. Import these functions in your spec file: `import { assertHeader } from '../helpers'`
+2. Import these functions in your spec file: `import { assertHeader } from '../utils/page-helpers.ts'`
 3. Use it: `await assertTitle(page)`

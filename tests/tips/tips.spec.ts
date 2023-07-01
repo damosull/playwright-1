@@ -3,7 +3,7 @@ import { getRandomNumber, getRandomString } from '../../utils/data-helpers';
 
 // Look at the README for more info on these tips
 
-test.describe.parallel.only('Playwright Tips', () => {
+test.describe.parallel('Playwright Tips', () => {
   test('TestInfo Object', async ({ page }, testInfo) => {
     console.log(testInfo);
   });
