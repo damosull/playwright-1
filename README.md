@@ -24,12 +24,11 @@
 
 # Test Files/Folders:
 
-- api - sample API tests
-  [api](tests/api).
-- e2e - sample E2E tests of the 'zero.webappsecurity.com' test application, including POM examples.
-- tips - sample Playwright tips
-- visual - sample Visual tests
-- example.spec.ts - basic tests of the 'zero.webappsecurity.com' test application.
+- [tests/api](tests/api) - sample API tests.
+- [tests/e2e](tests/e2e) - sample E2E tests of the 'zero.webappsecurity.com' test application, including POM examples.
+- [tests/tips](tests/tips) - sample Playwright tips.
+- [tests/visual](tests/visual) - sample Visual tests.
+- [tests/example.spec.ts](tests/example.spec.ts) - basic tests of the 'zero.webappsecurity.com' test application.
 
 # Visual Testing:
 
