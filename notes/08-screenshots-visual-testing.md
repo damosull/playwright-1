@@ -1,8 +1,9 @@
 # Artifacts on Fail (Videos & Screenshots):
 
 - Related files: `configs/playwright.config.ts`, `test-results` folder
+- Whether or not videos & screenshots are captured as part of your tests depends on your test configuration.
 - In `configs/playwright.config.ts`, we've previously set video & screenshot to `off`.
-- All you need to do is set the following:
+- To capture videos & screenshots of failures, all you need to do is set the following:
 
 ```
 video: 'retain-on-failure',
