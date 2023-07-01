@@ -13,7 +13,8 @@
 
 # Test Results / Test Reporting:
 
-- Running this test framework as-is using `npm run test:chrome` will run all tests in the Chrome browser & capture screenshots and videos of all test failures. However, a HTML report will not be generated. See [notes/07-reporters.md](notes/07-reporters.md) for more information on reporting.
+- Running this test framework as-is using `npm run test:chrome` will run all tests in the Chrome browser & capture screenshots and videos of all test failures. However, a HTML report will not be generated.
+- See [notes/07-reporters.md](notes/07-reporters.md) for more information on reporting.
 
 # configs Folder:
 
