@@ -1,10 +1,9 @@
 # Test Info Object:
 
-- This contains lots of info about your test (output directories, configs, settings, etc.)
-- How to access this inside your test:
-- This is useful if you have an internal monitoring/logging system, as we can take info from testInfo object & pass it to the monitoring system to collect metrics, etc.
-- if you want a specific part of testInfo, use `testInfo.title`, `testInfo.file`, etc.
-- See tips.spec.ts for an example.
+- This contains lots of info about your test _(output directories, configs, settings, etc.)_.
+- This is useful if you have an internal monitoring/logging system, as we can take info from the `testInfo` object & pass it to the monitoring system to collect metrics, etc.
+- if you want a specific piece of info you can use something like `testInfo.title`, `testInfo.file`, etc.
+- See [tests/tips/tips.spec.ts](tests/tips/tips.spec.ts) for an example.
 
 # Skip Browser Annotation
 
