@@ -20,12 +20,12 @@
 
 # Artifacts on Fail (Videos & Screenshots):
 
-- See notes/08-screenshots-on-failure.md.
-  Todo: add link in above
+- See [notes/08-screenshots-on-failure.md](notes/08-screenshots-on-failure.md).
 
 # Test Files/Folders:
 
 - api - sample API tests
+  [api](tests/api).
 - e2e - sample E2E tests of the 'zero.webappsecurity.com' test application, including POM examples.
 - tips - sample Playwright tips
 - visual - sample Visual tests
