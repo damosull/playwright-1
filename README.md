@@ -32,15 +32,13 @@
 
 # Visual Testing:
 
-- See notes/09-screenshots-visual-testing.md.
-  Todo: add link in above
+- See [notes/09-screenshots-visual-testing.md](notes/09-screenshots-visual-testing.md).
 
-# utils Folder:
+# 'utils' Folder:
 
-- See notes/10-custom-functions.md & notes/15-tips.md
-  Todo: add link in above
+- See [notes/11-custom-functions.md](notes/11-custom-functions.md) & [notes/16-tips.md](notes/16-tips.md)
 
-# page-objects Folder
+# 'page-objects' Folder
 
 - This stores the usual page object model (POM) files.
 - The `components` subfolder stores components which are shared across multiple pages (i.e. navbar)
