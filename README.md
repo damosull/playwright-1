@@ -4,6 +4,7 @@
 - The [configs](configs) folder contains the configurations for various sets of tests.
   - These configs are fairly similar, the only major differences are the test directory file path & whether or not videos/screenshots are turned on.
 - The [page-objects](page-objects) folder is explained in [notes/16-page-objects.md](notes/16-page-objects.md)
+- The [utils](utils) folder is explained in [notes/11-custom-functions.md](notes/11-custom-functions.md) & [notes/15-tips.md](notes/15-tips.md).
 
 # PlayWright Installation & writing your first test:
 
@@ -34,10 +35,6 @@
 # Visual Testing:
 
 - See [notes/09-screenshots-visual-testing.md](notes/09-screenshots-visual-testing.md).
-
-# 'utils' Folder:
-
-- See [notes/11-custom-functions.md](notes/11-custom-functions.md) & [notes/15-tips.md](notes/15-tips.md)
 
 # Test Generated Files:
 
