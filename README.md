@@ -9,6 +9,14 @@
   - This folder is not used for storing test failure screenshots or videos.
 - The [utils](utils) folder is explained in [notes/11-custom-functions.md](notes/11-custom-functions.md) & [notes/15-tips.md](notes/15-tips.md).
 
+# Test Files/Folders:
+
+- API tests - [tests/api](tests/api)
+- E2E tests for http://zero.webappsecurity.com/ _(incl. POM examples)_ - [tests/e2e](tests/e2e)
+- Playwright tips - [tests/tips](tests/tips)
+- Visual tests - [tests/visual](tests/visual)
+- Basic tests for http://zero.webappsecurity.com/ - [tests/example.spec.ts](tests/example.spec.ts)
+
 # PlayWright Installation & writing your first test:
 
 - See [notes/01-set-up-steps.md](notes/01-set-up-steps.md)
@@ -26,14 +34,6 @@
 # Artifacts on Fail (Videos & Screenshots):
 
 - See [notes/08-screenshots-on-failure.md](notes/08-screenshots-on-failure.md).
-
-# Test Files/Folders:
-
-- API tests - [tests/api](tests/api)
-- E2E tests for http://zero.webappsecurity.com/ _(incl. POM examples)_ - [tests/e2e](tests/e2e)
-- Playwright tips - [tests/tips](tests/tips)
-- Visual tests - [tests/visual](tests/visual)
-- Basic tests for http://zero.webappsecurity.com/ - [tests/example.spec.ts](tests/example.spec.ts)
 
 # Visual Testing:
 
