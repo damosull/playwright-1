@@ -23,7 +23,7 @@
 
   - The UI will be compared against the base screenshots mentioned above.
 
-- _Note: When you run this test for the 1st time, a snapshot is only generated for that browser. Therefore, you have to run the test once for **each** of your browsers first, before the comparison will work (in order to generate the base screenshots for each browser)_.
+- _Note: When you run this test for the 1st time, a snapshot is only generated for **that browser**. Therefore, you have to run the test once for **each** of your browsers first, before the comparison will work (in order to generate the base screenshots for each browser)_.
 
 # Visual Testing - Single Element Screenshot
 
