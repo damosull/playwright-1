@@ -4,7 +4,7 @@
 
    ```
     export async function loadHomepage(page) {
-    await page.goto('https://www.example.com');
+      await page.goto('https://www.example.com');
     }
    ```
 
