@@ -9,8 +9,9 @@ const el = await page.$('h1')
 await el.screenshot({ path: 'screenshot.png' })
 ```
 
-# Artifacts on Fail (videos & screenshots):
+# Artifacts on Fail (Videos & Screenshots):
 
+- Related files: `configs/playwright.config.ts`, `test-results` folder
 - In `configs/playwright.config.ts`, we've previously set video & screenshot to `off`.
 - All you need to do is set the following:
 

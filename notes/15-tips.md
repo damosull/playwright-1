@@ -46,11 +46,11 @@
 
 # Generate PDF Files
 
-- Useful if you want to convert a webpage or form into PDF: `npx playwright pdf https://www.example.com my-file.pdf`
+- Useful if you want to convert a webpage or form into PDF: `npx playwright pdf https://www.example.com test-generated-files/my-file.pdf`
 
 # Generate Customised Screenshots
 
-- You can also generate customised screenshots by using commands like `npx playwright screenshot --device="iPhone 11" --color-scheme=dark --wait-for-timeout=3000 twitter.com twitter-iphone-image.png`
+- You can also generate customised screenshots by using commands like `npx playwright screenshot --device="iPhone 11" --color-scheme=dark --wait-for-timeout=3000 twitter.com test-generated-files/twitter-iphone-image.png`
 
 # Emulate Browser Language & Timezone
 

@@ -7,14 +7,29 @@
 - The configs folder contains the configurations for various types of tests.
 - These configs are fairly similar, the only major differences are the test directory file path & whether or not videos/screenshots are turned on.
 
+# Test Generated Files
+
+- This folder contains PDF & PNG files generated as part of various tests.
+
+# Test Results / Test Reporting
+
+- See notes/07-reporters.md
+  Todo: add link in above
+
+# Artifacts on Fail (Videos & Screenshots)
+
+- See notes/08-screenshots-visual-testing.md
+  Todo: add link in above
+
+# test-generated-files Folder
+
+- Only purpose for this is to store files that are generated when running some commands.
+- The commands that generate these files can be found in notes/15-tips.md
+
 # Todo List:
 
-1. Move page-objects to a support folder or the utils folder. I think I might rename utils to support, but double check if it's somethign different.
-2. Where to put the generated screenshots & PDFs? Maybe create a screenshots folder & PDFs folder @ project root & specify that path in all tests where screenshots are taken?
-3. What to do w. the test-results folder? What to do w. the playwright-report folder? When are these generated? By what command? And is that the default one we're going with? Need to pick 1 reporter, stick with it & then outline steps required to use the others
-4. Need to go through the sub folders within the tests folder in the README, just give a brief explanation on what's inside each, which configuration is linked to it, etc., & if there's anything specific about certain sub folders (i.e. having to run the visual tests once before they actually pass. For this example, instead of repeating, just add a link to the MD file in the notes section that explains it, rather than repeating yourself).
-5. As part of Point 6 above, update the 'E2E Tests' section in the README below to follow that approach.
-6. Use the README file to explain installation steps how to run the framework & where to find the test results. We need to stick to 1 reporting format so we can confirm the framework is working correctly. Might make sense to stick to the basic one as the base. We can then add a notes MD file that explains the steps needed in order to use other reporters (see if we can maybe update the existing 07-reporters.md for this?)
+1. Need to go through the sub folders within the tests folder in the README, just give a brief explanation on what's inside each, which configuration is linked to it, etc., & if there's anything specific about certain sub folders (i.e. having to run the visual tests once before they actually pass. For this example, instead of repeating, just add a link to the MD file in the notes section that explains it, rather than repeating yourself).
+2. Use the README file to explain installation steps how to run the framework & where to find the test results. We need to stick to 1 reporting format so we can confirm the framework is working correctly. Might make sense to stick to the basic one as the base. We can then add a notes MD file that explains the steps needed in order to use other reporters (see if we can maybe update the existing 07-reporters.md for this?)
 
 # E2E Tests:
 
