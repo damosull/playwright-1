@@ -4,8 +4,7 @@
 
 # PlayWright Installation & writing your first test:
 
-- See notes/01-set-up-steps.md
-  Todo: add link in above
+- See [notes/01-set-up-steps.md](notes/01-set-up-steps.md)
 
 # How to run this framework:
 
