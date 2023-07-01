@@ -1,8 +1,8 @@
-# notes Folder:
+# Getting Started:
 
-- This folder contains very basic notes on topics such as setting up a basic Framework to Playwright Reporters, etc.
+- The 'notes' folder contains very basic notes on topics such as setting up a basic Framework to Playwright Reporters, etc.
 
-# PlayWright Installation & writing your first test:
+## PlayWright Installation & writing your first test:
 
 - See [notes/01-set-up-steps.md](notes/01-set-up-steps.md)
 
