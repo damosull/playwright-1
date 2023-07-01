@@ -6,15 +6,14 @@
 
 - See [notes/01-set-up-steps.md](notes/01-set-up-steps.md)
 
-# How to run this framework:
+# How to run this test framework:
 
 1. Run `npm install` to install the project dependencies.
-2. Run one of the test commands (i.e. `npm run test:chrome`)
+2. Run one of the test commands (i.e. `npm run test:chrome`). See [package.json](package.json) for more sample commands.
 
 # Test Results / Test Reporting:
 
-- See notes/07-reporters.md.
-  Todo: add link in above
+- Running this test framework as-is using `npm run test:chrome` will run all tests in the Chrome browser & capture screenshots and videos of all test failures. However, a HTML report will not be generated. - See [notes/07-reporters.md](notes/07-reporters.md) for more information on reporting.
 
 # configs Folder:
 
